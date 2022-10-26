@@ -10,7 +10,7 @@ def lotto() -> list:
 
 def get_player_number() -> list:
     player_number = []
-    dic_of_selected_number = ["first", "second", "trird", "fourth", "fifth", "sixth"]
+    dic_of_selected_number = ["first", "second", "third", "fourth", "fifth", "sixth"]
     while len(player_number) < 6:
         try:
             tmp_number = int(input(f"Enter the {dic_of_selected_number[len(player_number)]} number: "))
